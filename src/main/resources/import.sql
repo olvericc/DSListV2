@@ -1,0 +1,10 @@
+INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (1, 'Apple', 5, 'Sweet and tangy', 'Red', 'Fruit');
+INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (2, 'Orange', 3, 'Citrusy', 'Orange', 'Fruit');
+INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (3, 'Banana', 7, 'Sweet', 'Yellow', 'Fruit');
+INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (4, 'Grape', 10, 'Juicy and sweet', 'Purple', 'Fruit');
+INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (5, 'Cherry', 12, 'Sweet and tart', 'Red', 'Fruit');
+INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (6, 'Pear', 4, 'Juicy and slightly grainy', 'Green', 'Fruit');
+INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (7, 'Pineapple', 2, 'Sweet and tangy', 'Yellow', 'Fruit');
+INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (8, 'Mango', 6, 'Sweet and tropical', 'Yellow', 'Fruit');
+INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (9, 'Raspberry', 9, 'Sweet and tangy', 'Red', 'Fruit');
+INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (10, 'Plum', 3, 'Juicy and sweet', 'Purple', 'Fruit');

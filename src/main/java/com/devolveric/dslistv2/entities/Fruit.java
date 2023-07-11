@@ -12,19 +12,19 @@ public class Fruit {
     private Long id;
     private String name;
     private Integer quantity;
-    private String tasteDescription;
+    private String taste;
     private String color;
     private String type;
 
     public Fruit() {
     }
 
-    public Fruit(Long id, String name, Integer quantity, String tasteDescription,
+    public Fruit(Long id, String name, Integer quantity, String taste,
                  String color, String type) {
         this.id = id;
         this.name = name;
         this.quantity = quantity;
-        this.tasteDescription = tasteDescription;
+        this.taste = taste;
         this.color = color;
         this.type = type;
     }
@@ -53,12 +53,12 @@ public class Fruit {
         this.quantity = quantity;
     }
 
-    public String getTasteDescription() {
-        return tasteDescription;
+    public String getTaste() {
+        return taste;
     }
 
-    public void setTasteDescription(String tasteDescription) {
-        this.tasteDescription = tasteDescription;
+    public void setTaste(String tasteD) {
+        this.taste = taste;
     }
 
     public String getColor() {
