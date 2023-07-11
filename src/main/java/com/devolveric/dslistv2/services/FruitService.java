@@ -11,8 +11,12 @@ import java.util.List;
 @Service
 public class FruitService {
 
+    private final FruitRepository fruitRepository;
+
     @Autowired
-    private FruitRepository fruitRepository;
+    public FruitService(FruitRepository fruitRepository) {
+        this.fruitRepository = fruitRepository;
+    }
 
     public List<FruitMinDTO> searchAllFruits() {
         List<Fruit> result = fruitRepository.findAll();
