@@ -8,3 +8,14 @@ INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (7, 'Pineappl
 INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (8, 'Mango', 6, 'Sweet and tropical', 'Yellow', 'Fruit');
 INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (9, 'Raspberry', 9, 'Sweet and tangy', 'Red', 'Fruit');
 INSERT INTO fruits (id, name, quantity, taste, color, type) VALUES (10, 'Plum', 3, 'Juicy and sweet', 'Purple', 'Fruit');
+
+INSERT INTO sellers (id, firstName, lastName, email, phone) VALUES (1, 'João', 'Silva', 'joao.silva@example.com', '1234567890');
+INSERT INTO sellers (id, firstName, lastName, email, phone) VALUES (2, 'Maria', 'Santos', 'maria.santos@example.com', '9876543210');
+INSERT INTO sellers (id, firstName, lastName, email, phone) VALUES (3, 'Carlos', 'Lima', 'carlos.lima@example.com', '5555555555');
+INSERT INTO sellers (id, firstName, lastName, email, phone) VALUES (4, 'Ana', 'Costa', 'ana.costa@example.com', '1111111111');
+INSERT INTO sellers (id, firstName, lastName, email, phone) VALUES (5, 'Pedro', 'Oliveira', 'pedro.oliveira@example.com', '9999999999');
+INSERT INTO sellers (id, firstName, lastName, email, phone) VALUES (6, 'Sandra', 'Martins', 'sandra.martins@example.com', '2222222222');
+INSERT INTO sellers (id, firstName, lastName, email, phone) VALUES (7, 'Ricardo', 'Pereira', 'ricardo.pereira@example.com', '7777777777');
+INSERT INTO sellers (id, firstName, lastName, email, phone) VALUES (8, 'Mariana', 'Rodrigues', 'mariana.rodrigues@example.com', '8888888888');
+INSERT INTO sellers (id, firstName, lastName, email, phone) VALUES (9, 'Luís', 'Fernandes', 'luis.fernandes@example.com', '4444444444');
+INSERT INTO sellers (id, firstName, lastName, email, phone) VALUES (10, 'Teresa', 'Gomes', 'teresa.gomes@example.com', '6666666666');

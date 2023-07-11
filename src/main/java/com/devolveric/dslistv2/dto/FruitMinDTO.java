@@ -8,8 +8,7 @@ public class FruitMinDTO {
     private String name;
     private String type;
 
-    public FruitMinDTO() {
-    }
+    public FruitMinDTO() {}
 
     public FruitMinDTO(Fruit entity) {
         id = entity.getId();
