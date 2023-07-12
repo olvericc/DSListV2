@@ -15,8 +15,12 @@ import java.util.List;
 @RequestMapping(value = "/fruits")
 public class FruitController {
 
+    private final FruitService fruitService;
+
     @Autowired
-    private FruitService fruitService;
+    public FruitController(FruitService fruitService) {
+        this.fruitService = fruitService;
+    }
 
     @GetMapping
     public List<FruitMinDTO> searchAllFruits() {

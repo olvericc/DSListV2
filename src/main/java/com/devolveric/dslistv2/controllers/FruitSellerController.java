@@ -13,8 +13,12 @@ import java.util.List;
 @RequestMapping(value = "/sellers")
 public class FruitSellerController {
 
+    private final FruitSellerService fruitSellerService;
+
     @Autowired
-    private FruitSellerService fruitSellerService;
+    public FruitSellerController(FruitSellerService fruitSellerService) {
+        this.fruitSellerService = fruitSellerService;
+    }
 
     @GetMapping
     public List<FruitSellerMinDTO> searchAllFruitsSellers() {
