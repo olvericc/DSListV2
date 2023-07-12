@@ -7,6 +7,7 @@ import java.util.Objects;
 @Entity
 @Table (name = "fruits")
 public class Fruit {
+
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
@@ -19,8 +20,7 @@ public class Fruit {
     public Fruit() {
     }
 
-    public Fruit(Long id, String name, Integer quantity, String taste,
-                 String color, String type) {
+    public Fruit(Long id, String name, Integer quantity, String taste, String color, String type) {
         this.id = id;
         this.name = name;
         this.quantity = quantity;
@@ -57,7 +57,7 @@ public class Fruit {
         return taste;
     }
 
-    public void setTaste(String tasteD) {
+    public void setTaste(String taste) {
         this.taste = taste;
     }
 
