@@ -1,6 +1,7 @@
 package com.devolveric.dslistv2.dto;
 
 import com.devolveric.dslistv2.entities.Fruit;
+import com.devolveric.dslistv2.projections.FruitMinProjection;
 
 public class FruitMinDTO {
 
@@ -14,6 +15,12 @@ public class FruitMinDTO {
         id = entity.getId();
         name = entity.getName();
         type = entity.getType();
+    }
+
+    public FruitMinDTO(FruitMinProjection projection) {
+        id = projection.getId();
+        name = projection.getName();
+        type = projection.getType();
     }
 
     public Long getId() {

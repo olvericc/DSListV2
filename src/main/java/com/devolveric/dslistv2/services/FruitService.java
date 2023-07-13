@@ -3,6 +3,7 @@ package com.devolveric.dslistv2.services;
 import com.devolveric.dslistv2.dto.FruitDTO;
 import com.devolveric.dslistv2.dto.FruitMinDTO;
 import com.devolveric.dslistv2.entities.Fruit;
+import com.devolveric.dslistv2.projections.FruitMinProjection;
 import com.devolveric.dslistv2.repositories.FruitRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,5 +31,11 @@ public class FruitService {
     public FruitDTO searchById(Long id) {
         Fruit result = fruitRepository.findById(id).get();
         return new FruitDTO(result);
+    }
+
+    @Transactional(readOnly = true)
+    public List<FruitMinDTO> searchByList(Long listId) {
+        List<FruitMinProjection> result = fruitRepository.searchByList(listId);
+        return result.stream().map(FruitMinDTO::new).toList();
     }
 }
