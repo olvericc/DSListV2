@@ -12,7 +12,7 @@ public interface FruitListRepository extends JpaRepository<FruitList, Long> {
             nativeQuery = true,
             value =
                     """
-            UPDATE 
+            UPDATE
                 belonging
             SET
                 position = :newPosition
