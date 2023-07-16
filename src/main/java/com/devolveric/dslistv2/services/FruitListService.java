@@ -35,11 +35,11 @@ public class FruitListService {
         FruitMinProjection obj = list.remove(sourceIndex);
         list.add(targetIndex, obj);
 
-        int minimal = sourceIndex < targetIndex ? sourceIndex : targetIndex;
-        int maximal = sourceIndex < targetIndex ? targetIndex : sourceIndex;
+        int minimal = Math.min(sourceIndex, targetIndex);
+        int maximal = Math.max(sourceIndex, targetIndex);
 
         for (int i = minimal; i <= maximal; i++) {
-            FruitListRepository.updateBelongingPosition(listId, list.get(i).getId(), i);
+            fruitListRepository.updateBelongingPosition(listId, list.get(i).getId(), i);
         }
     }
 }
