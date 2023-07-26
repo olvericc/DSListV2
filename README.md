@@ -2,6 +2,23 @@
 
 The project aims to create a RESTful API with a backend in Java and Spring Boot.
 
+## 📝 Summary
+
+- [Introduction](#-introduction)
+- [Architecture](#-architecture)
+- [Initial Idea](#initial-idea)
+- [Domain Model](#-domain-model)
+- [Diagrams](#-diagrams)
+- [Starting](#-starting)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Built With](#-built-with)
+- [Version](#-version)
+- [Authors](#-authors)
+- [License](#-license)
+- [References](#-references)
+- [Thanks](#-thanks)
+
 ## 📖 Introduction
 
 This project was developed by me, through an event that took place during the month of July 2023, taught by Professor Nelio Alves.
