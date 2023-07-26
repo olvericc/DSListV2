@@ -162,7 +162,7 @@ With Postman, you can thoroughly test your API, debug any issues, and ensure tha
 > * Spring Data JPA - Spring Framework subproject that supports and facilitates JPA (Java Persistence API) integration.
 > * H2 Database - In-memory database for testing.zzz
 > * PostgreSQL - Relational database management system.
->  * Version: 15
+>  * Version: 14
 
 ## 📌 Version
 
