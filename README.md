@@ -29,16 +29,15 @@ The event calls "Intensivão Java Spring" is a bootcamp aimed at web developing 
 
 The project use this layer pattern:
 
-1. Frontend
-   2. JSON (HTTP Requests)
-3. Backend
-   4. Controllers 
-      5. DTO
-   5. Transactions
-      6. Services
-      7. Entities
-      8. Repositories
-      9. Projections
+> + Frontend
+>  + JSON (HTTP Requests)
+> + Backend
+>  + Controllers 
+>  + DTO
+>  + Services
+>  + Entities
+>  + Repositories
+>  + Projections
 
 With the image bellow you can visualize the layer pattern used, 
 following the design standards of the current development market.
@@ -73,24 +72,24 @@ being very useful to visualize the entire operation.
 
 ## 🚀 Starting
 
-Cloning with SSH KEY
+### Cloning with SSH KEY
 
 ``git clone git@github.com:olvericc/dsListV2.git``
 
-Cloning with HTTPS Protocol
+### Cloning with HTTPS Protocol
 
 ``git clone https://github.com/olvericc/dsListV2.git``
 
 ## 📋 Prerequisites
 
-* IDE - IntelliJ IDEA Ultimate;
-* SGBD - DBeaver Community;
-* APIs - Postman;
-* VSC - Git;
-* SDK - JDK 17 LST (Zulu);
-* Compilation Tool - Maven;
-* DB - Postgres;
-* DB - H2 Database;
+> * IDE - IntelliJ IDEA Ultimate;
+> * SGBD - DBeaver Community;
+> * APIs - Postman;
+> * VSC - Git;
+> * SDK - JDK 17 LST (Zulu);
+> * Compilation Tool - Maven;
+> * DB - Postgres;
+> * DB - H2 Database;
 
 ## 🔧 Installation
 
@@ -108,7 +107,7 @@ You need to run these commands in terminal, on the docker folder (for example: C
 
 ### ⌨️ IntelliJ
 
-with your IDE open, launch the Spring Boot application via the build tool.
+With your IDE open, launch the Spring Boot application via the build tool.
 
 ### Or you can build in terminal
 
@@ -139,13 +138,13 @@ Follow these steps to set up Postman and test your RESTful API:
 1. Import the API Collection: https://documenter.getpostman.com/view/21827047/2s946o5VJE
 2. Test the Endpoints: 
 
-Now you can start testing the endpoints.
+### Now you can start testing the endpoints.
 
-Each request in the collection represents a specific API endpoint with its parameters and expected responses.
+1. Each request in the collection represents a specific API endpoint with its parameters and expected responses.
 
 For example, to test the GET request for fetching a specific resource, select the corresponding request from the collection. 
 
-Fill in any necessary parameters and click the "Send" button to execute the request. 
+2. Fill in any necessary parameters and click the "Send" button to execute the request. 
 
 You'll receive the response from the server, which you can inspect and validate.
 
@@ -153,22 +152,17 @@ With Postman, you can thoroughly test your API, debug any issues, and ensure tha
 
 ## 🛠️ Built With
 
-### tools and technologies I used to create my project
+### Tools and technologies I used to create my project
 
-* Java - Programming language used.
-  * Version: 17 LTS
-
-* Spring Boot - Framework for building the application.
-  * Version: 3.1.2 
-
-* Maven - Dependency Manager.
-
-* Spring Data JPA - Spring Framework subproject that supports and facilitates JPA (Java Persistence API) integration.
-
-* H2 Database - In-memory database for testing.zzz
-
-* PostgreSQL - Relational database management system.
-  * Version: 15.0
+> * Java - Programming language used.
+>  * Version: 17 LTS
+> * Spring Boot - Framework for building the application.
+>  * Version: 3.1 LTS
+> * Maven - Dependency Manager.
+> * Spring Data JPA - Spring Framework subproject that supports and facilitates JPA (Java Persistence API) integration.
+> * H2 Database - In-memory database for testing.zzz
+> * PostgreSQL - Relational database management system.
+>  * Version: 15
 
 ## 📌 Version
 
@@ -192,7 +186,7 @@ https://github.com/devsuperior/dslist-backend
 
 ## 🎁 Thanks
 
-* In this project is purely for academic purposes;
-* I plan to add more libraries and adding new features in the future;
-* I will add a frontend with Angular or React;
-* The deployment will be completed in next version;
+> * These project is purely for academic purposes;
+> * I plan to add more libraries and adding new features in the future;
+> * I will add a frontend with Angular or React;
+> * The deployment will be completed in next version;
