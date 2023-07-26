@@ -1,16 +1,16 @@
 # DSListV2 - RESTful API for list management
 
-This project aims to create a RESTful API with a backend in Java and Spring Boot
+The project aims to create a RESTful API with a backend in Java and Spring Boot.
 
 ## 📖 Introduction
 
-this project was developed by me, through an event that took place during the month of July 2023, taught by Professor Nelio Alves.
+This project was developed by me, through an event that took place during the month of July 2023, taught by Professor Nelio Alves.
 
-"Intensivão Java Spring" is a bootcamp aimed at developing a Backend Spring Boot application with Java.
+The event calls "Intensivão Java Spring" is a bootcamp aimed at web developing a Backend Spring Boot application with Java.
 
 ## 🛠️ Architecture
 
-This project use this layer pattern:
+The project use this layer pattern:
 
 1. Frontend
    2. JSON (HTTP Requests)
@@ -22,6 +22,11 @@ This project use this layer pattern:
       7. Entities
       8. Repositories
       9. Projections
+
+With the image bellow you can visualize the layer pattern used, 
+following the design standards of the current development market.
+
+![layer pattern used to create this project](/assets/layerPattern.png)
 
 ## 💡Initial Idea
 
